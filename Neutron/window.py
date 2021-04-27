@@ -3,7 +3,7 @@ from mouse import get_position
 from .interval import setInterval,setTimeOut
 from .navigation import navigation
 
-class window:
+class NeutronApp:
       def __init__(self,w=800,h=400):
           self.window = tk.Tk()
           self.navigation=navigation(self.window)

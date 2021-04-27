@@ -1,5 +1,4 @@
 from Neutron import NeutronApp,tk,Rotate,Translate,Painter
-from time import sleep
 from PIL import Image,ImageTk
 
 
